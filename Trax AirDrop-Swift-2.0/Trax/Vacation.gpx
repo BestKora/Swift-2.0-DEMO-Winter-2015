@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" xmlns:xsi="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <wpt lat="50.8005658" lon="-118.0394925">
+    <name>Helicopter</name>
+    <desc>Let’s get this party started!</desc>
+    <link href="http://cs193p.stanford.edu/Images/Helicopter.jpg">
+	<type>large</type>
+    </link>
+    <link href="http://cs193p.stanford.edu/Images/Helicopter.png">
+	<type>thumbnail</type>
+    </link>
+  </wpt>
+   <wpt lat="50.7653464" lon="-118.2072668">
+    <name>Top of First Run</name>
+    <desc>Incredible views from up here.</desc>
+    <link href="http://cs193p.stanford.edu/Images/Crag.jpg">
+	<type>large</type>
+    </link>
+    <link href="http://cs193p.stanford.edu/Images/Crag.png">
+	<type>thumbnail</type>
+    </link>
+  </wpt>
+   <wpt lat="50.7453018" lon="-118.2307064">
+    <name>Nice Tracks</name>
+    <desc>Oh no! Clouds rolling in.</desc>
+    <link href="http://cs193p.stanford.edu/Images/FreshTracks.jpg">
+	<type>large</type>
+    </link>
+    <link href="http://cs193p.stanford.edu/Images/FreshTracks.png">
+	<type>thumbnail</type>
+    </link>
+  </wpt>
+   <wpt lat="50.7624520" lon="-118.2735700">
+    <name>Incoming!</name>
+    <desc>Brace yourself for fierce wind.</desc>
+    <link href="http://cs193p.stanford.edu/Images/HelicopterLanding.jpg">
+	<type>large</type>
+    </link>
+    <link href="http://cs193p.stanford.edu/Images/HelicopterLanding.png">
+	<type>thumbnail</type>
+    </link>
+  </wpt>
+   <wpt lat="50.7637929" lon="-118.2665672">
+    <name>Valley Floor</name>
+    <desc>Views are spectacular even from here.</desc>
+    <link href="http://cs193p.stanford.edu/Images/Mountain.jpg">
+	<type>large</type>
+    </link>
+    <link href="http://cs193p.stanford.edu/Images/Mountain.png">
+	<type>thumbnail</type>
+    </link>
+  </wpt>
+   <wpt lat="50.7786180" lon="-118.2093004">
+    <name>Ready for Pickup</name>
+    <desc>This isn’t Jenga, stack ‘em neatly.</desc>
+    <link href="http://cs193p.stanford.edu/Images/PileOfSkis.jpg">
+	<type>large</type>
+    </link>
+    <link href="http://cs193p.stanford.edu/Images/PileOfSkis.png">
+	<type>thumbnail</type>
+    </link>
+  </wpt>
+   <wpt lat="50.7422016" lon="-118.2218038">
+    <name>Flying</name>
+    <desc>Wouldn’t you love to be at the controls?</desc>
+    <link href="http://cs193p.stanford.edu/Images/Cockpit.jpg">
+	<type>large</type>
+    </link>
+    <link href="http://cs193p.stanford.edu/Images/Cockpit.png">
+	<type>thumbnail</type>
+    </link>
+  </wpt>
+   <wpt lat="50.7789335" lon="-118.2263683">
+    <name>Panorama</name>
+    <desc>Cool iPhone feature.</desc>
+    <link href="http://cs193p.stanford.edu/Images/Panorama.jpg">
+	<type>large</type>
+    </link>
+    <link href="http://cs193p.stanford.edu/Images/Panorama.png">
+	<type>thumbnail</type>
+    </link>
+  </wpt>
+   <wpt lat="51.0258505" lon="-118.2338546">
+    <name>Apres Ski</name>
+    <desc>In Canada, after all.</desc>
+    <link href="http://cs193p.stanford.edu/Images/Curling.jpg">
+	<type>large</type>
+    </link>
+    <link href="http://cs193p.stanford.edu/Images/Curling.png">
+	<type>thumbnail</type>
+    </link>
+  </wpt>
+</gpx>

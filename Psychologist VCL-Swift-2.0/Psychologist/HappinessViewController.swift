@@ -12,7 +12,6 @@ var globalHappinessInstanceCount = 0
 
 class HappinessViewController: UIViewController, FaceViewDataSource
 {
-    var instanceCount = { globalHappinessInstanceCount++ }()
 
     var happiness: Int = 60 { // 0 = very sad, 100 = ecstatic
         didSet {
@@ -21,6 +20,13 @@ class HappinessViewController: UIViewController, FaceViewDataSource
             updateUI()
         }
     }
+    var instanceCount:Int = {defer {
+       globalHappinessInstanceCount += 1
+        }
+        return globalHappinessInstanceCount
+       // это вместо упраздненного globalHappinessInstanceCount++
+    }()
+   
     
     func updateUI() {
         // in L7, we discovered that we have to be careful here
@@ -40,7 +46,7 @@ class HappinessViewController: UIViewController, FaceViewDataSource
     @IBOutlet weak var faceView: FaceView! {
         didSet {
             faceView.dataSource = self
-            faceView.addGestureRecognizer(UIPinchGestureRecognizer(target: faceView, action: "scale:"))
+            faceView.addGestureRecognizer(UIPinchGestureRecognizer(target: faceView, action: #selector(FaceView.scale)))
         }
     }
     

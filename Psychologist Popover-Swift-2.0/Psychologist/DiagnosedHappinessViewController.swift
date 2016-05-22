@@ -42,8 +42,13 @@ class DiagnosedHappinessViewController : HappinessViewController, UIPopoverPrese
             }
         }
     }
-    
+ /*
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController) -> UIModalPresentationStyle {
         return UIModalPresentationStyle.None
     }
+}
+*/
+func adaptivePresentationStyleForPresentationController(controller: UIPresentationController, traitCollection: UITraitCollection) -> UIModalPresentationStyle {
+    return UIModalPresentationStyle.None
+}
 }

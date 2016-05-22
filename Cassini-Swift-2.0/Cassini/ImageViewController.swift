@@ -98,7 +98,7 @@ class ImageViewController: UIViewController, UIScrollViewDelegate
         super.viewDidLoad()
         scrollView.addSubview(imageView)
     }
-    
+
     // for efficiency, we will only actually fetch the image
     // when we know we are going to be on screen
     override func viewWillAppear(animated: Bool) {

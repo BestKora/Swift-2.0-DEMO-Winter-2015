@@ -41,7 +41,13 @@ class PsychologistViewController: UIViewController
         }
     }
     
-    var instanceCount = { globalPsychologistInstanceCount++ }()
+    var instanceCount:Int = {
+        defer {
+            globalPsychologistInstanceCount += 1
+        }
+        return globalPsychologistInstanceCount
+        
+    } ()
     
     func logVCL(msg: String) {
         print(logVCLprefix + "Psychologist \(instanceCount) " + msg)

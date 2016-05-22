@@ -27,7 +27,7 @@ class FaceView: UIView
     
     weak var dataSource: FaceViewDataSource?
     
-    func scale(gesture: UIPinchGestureRecognizer) {
+   func scale(gesture: UIPinchGestureRecognizer) {
         if gesture.state == .Changed {
             scale *= gesture.scale
             gesture.scale = 1

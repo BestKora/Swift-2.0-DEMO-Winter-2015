@@ -23,6 +23,8 @@ class FaceView: UIView
     @IBInspectable
     var color: UIColor = UIColor.blueColor() { didSet { setNeedsDisplay() } }
     @IBInspectable
+    var colorFill: UIColor = UIColor.yellowColor() { didSet { setNeedsDisplay() } }
+    @IBInspectable
     var scale: CGFloat = 0.90 { didSet { setNeedsDisplay() } }
     
     // in demo, this was mistakenly not made private ... fixed
@@ -61,6 +63,10 @@ class FaceView: UIView
             clockwise: true
         )
         facePath.lineWidth = lineWidth
+        
+        colorFill.setFill()
+        facePath.fill()
+        
         color.set()
         facePath.stroke()
         
